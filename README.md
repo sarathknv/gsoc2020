@@ -19,30 +19,34 @@
 - Week 4  
   - Added tests and tutorial to the PR. https://github.com/dipy/dipy/pull/2137
   
-- First Evaluation Week
+- Evaluation 1 Week
    - Tested the VoxelMorph model on a few T2-weighted volumes from the OASIS dataset.
 
 - Week 5
-  - Tried the VoxelMorph model for cross-modality registration (T1w static image and T2w moving images).
+  - Tried the VoxelMorph model for cross-modality registration (T1w static image and T2w moving images). Results weren't good.
  
 - Week 6
-
+  - Retrained the cross-modality registration model with better brain segmented T2 images. The brain mask was obtained using T1s insterad of T2s. So I rigid registered T1s with T2s and got the brain masks using T1s. Still the results were bad.
+  - Implemented thin-plate splines. [GitHub repo](https://github.com/sarathknv/tps)
 
 - Week 7
+  - Read and understood the N3 paper. ([A Nonparametric Method for Automatic Correction
+of Intensity Nonuniformity in MRI Data](https://www.nitrc.org/docman/view.php/6/880/sled.pdf))
 
 
-- Week 8
+- Week 8 + Evaluation 2 Week + Week 9
+  - Tried the [SyN algorithm](https://www.dipy.org/documentation/1.1.1./examples_built/syn_registration_3d/#example-syn-registration-3d) for cross-modality registration. Results looked good but the ventricular regions were expanding.
+  - Discussed doubts in N3 paper
 
 
-- Week 9
-
-
-- Week 10
-
-
-- Week 11
+- Week 10 and 11
+  - Implemented N3 paper. But yet to be tested
+  - Refashioned and cleaned the PR https://github.com/dipy/dipy/pull/2137
+  - Tried the SyN algorithm with more iterations. Results got worse.
 
 - Week 12
+  - Blogs and codes
+  - Documenting the whole work
 
 
 ## Blogs
