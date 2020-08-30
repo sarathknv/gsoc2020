@@ -29,14 +29,19 @@ The sampling points do not necessarily map to an integer location in the moving 
 - Jaderberg, Max, Karen Simonyan, and Andrew Zisserman. “Spatial transformer networks.” Advances in neural information processing systems. 2015.
 - [TensorFlow implementation of spatial transformer networks.](https://github.com/tensorflow/models/tree/master/research/transformer)
 - [Blog post on spatial transformer networks by Kushagra Bhatnagar](https://link.medium.com/0b2OrmqVO5)
-- [Blog posts on spatial transformer networks by Kevin Zakka](https://kevinzakka.github.io/2017/01/18/stn-part2/)
+- [Blog posts on spatial transformer networks by Kevin Zakka](https://kevinzakka.github.io/2017/01/18/stn-part2/)  
+
+As described in [1], I used bilinear interpolation which is differentiable and can be written in pure TensorFlow functions. In bilinear interpolation, the value at the fractional location is the weighted sum of the values at the four nearest integer locations.
+The network is trained by optimizing a similarity metric between the transformed and the static images. Once the training is finished, the network can predict the optimal registration field in one go, unlike the traditional algorithms, which involve numerical optimization for every new pair, thereby taking longer durations.
 
 ## Training the network
 The MNIST dataset was filtered to keep just one class of images and the static image was randomly chosen from the test set of the filtered dataset. The network was trained using a similarity metric, which is a measure of how similar/dissimilar two images are. Some examples include the mean squared error (MSE) and the normalized cross-correlation (NCC). The cross-correlation loss was used as it is robust to intensity variations. It is simply the dot product of two normalized images. The training takes about 5 minutes on a Tesla K80 GPU and about 10 minutes on CPU (i5–8250U).
 
 
 ## Sample outputs
-
+ | ![0](_images/1_0.png) | ![1](_images/1_1.png) | ![2](_images/1_2.png) |  
+ |:------------------------------------------:|:-----------------------:|:-----------:|  
+ |             ![3](_images/1_3.png)                    |      ![4](_images/1_4.png)    |: ![5](_images/1_5.png) :|  
 
 ## Highlights up till week 1
 - Developed a POC for non-rigid image registration using the MNIST dataset. [Colab notebook](https://colab.research.google.com/drive/1fTzz1aT2sb8oAXRO1-dr6O_IR6dof36e?usp=sharing)
@@ -45,10 +50,10 @@ The MNIST dataset was filtered to keep just one class of images and the static i
 - Added comments and docstrings.
 
 ## References
-- Jaderberg, Max, Karen Simonyan, and Andrew Zisserman. “Spatial transformer networks.” Advances in neural information processing systems. 2015.
+1. Jaderberg, Max, Karen Simonyan, and Andrew Zisserman. “Spatial transformer networks.” Advances in neural information processing systems. 2015.
 Balakrishnan, Guha, et al. “An unsupervised learning model for deformable medical image registration.” Proceedings of the IEEE conference on computer vision and pattern recognition. 2018.  
-- Li, Hongming, and Yong Fan. “Non-rigid image registration using fully convolutional networks with deep self-supervision.” arXiv preprint arXiv:1709.00799 (2017).  
--  de Vos, Bob D., et al. “End-to-end unsupervised deformable image registration with a convolutional neural network.” Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support. Springer, Cham, 2017. 204–212.  
-- [TensorFlow implementation of spatial transformer networks](https://github.com/tensorflow/models/tree/master/research/transformer)  
-- [Blog post on spatial transformer networks by Kushagra Bhatnagar](https://link.medium.com/0b2OrmqVO5)  
-- [Blog posts on spatial transformer networks by Kevin Zakka](https://kevinzakka.github.io/2017/01/18/stn-part2/)
+2. Li, Hongming, and Yong Fan. “Non-rigid image registration using fully convolutional networks with deep self-supervision.” arXiv preprint arXiv:1709.00799 (2017).  
+3.  de Vos, Bob D., et al. “End-to-end unsupervised deformable image registration with a convolutional neural network.” Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support. Springer, Cham, 2017. 204–212.  
+4. [TensorFlow implementation of spatial transformer networks](https://github.com/tensorflow/models/tree/master/research/transformer)  
+5. [Blog post on spatial transformer networks by Kushagra Bhatnagar](https://link.medium.com/0b2OrmqVO5)  
+6. [Blog posts on spatial transformer networks by Kevin Zakka](https://kevinzakka.github.io/2017/01/18/stn-part2/)
