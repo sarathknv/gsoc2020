@@ -50,15 +50,13 @@ of Intensity Nonuniformity in MRI Data](https://www.nitrc.org/docman/view.php/6/
 
 
 ## Blogs
-- Deep-learning-based 2D Deformable Image Registration with MNIST
-- Deep-learning-based 2D and 3D Affine Registration
-- Deep-learning-based 3D Deformable Registration with T1-weighted images
-- DIPY Registration API
-- Deep-learning-based 3D Deformable Registration with T2-weighted images
-- Deep-learning-based 3D Cross-modality Registration
-- Thin-plate Splines
-- Cross-modality Registration using SyN Algorithm
-- N3 Bias Field Correction
+- [Deep-learning-based 2D Deformable Image Registration with MNIST](https://github.com/sarathknv/gsoc2020/blob/master/blogs/Deep-learning-based%202D%20Deformable%20Image%20Registration%20with%20MNIST.md)
+- [Deep-learning-based 2D and 3D Affine Registration](https://github.com/sarathknv/gsoc2020/blob/master/blogs/Deep-learning-based%202D%20and%203D%20Affine%20Registration.md)
+- [Deep-learning-based 3D Deformable Registration of T1-weighted images](https://github.com/sarathknv/gsoc2020/blob/master/blogs/Deep-learning-based%203D%20Deformable%20Registration%20of%20T1-weighted%20images.md)
+- [DIPY NN Registration API](https://github.com/sarathknv/gsoc2020/blob/master/blogs/DIPY%20NN%20Registration%20API.md)
+- [Deep-learning-based 3D Deformable Registration of T2-weighted images](https://github.com/sarathknv/gsoc2020/blob/master/blogs/Deep-learning-based%203D%20Deformable%20Registration%20of%20T2-weighted%20Images.md)
+- [Deep-learning-based 3D Cross-modality Registration](https://github.com/sarathknv/gsoc2020/blob/master/blogs/Deep-learning-based%203D%20Cross-modality%20Registration.md)
+- [Thin-plate Splines](https://github.com/sarathknv/gsoc2020/blob/master/blogs/Thin-Plate%20Splines.md)
 
 ## Colab Notebooks
 
