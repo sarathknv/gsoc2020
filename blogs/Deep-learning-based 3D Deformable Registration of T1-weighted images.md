@@ -6,7 +6,8 @@ Last week I finished with the implementation of the VoxelMorph framework and tra
   <img src="_images/3_framework.png">
 </p>  
 
-This week I performed the necessary preprocessing: removed the skulls in the volumes using the brain segmentation that was provided, and affine registered the volumes to the static image, using the DIPY tutorial: [Affine Registration in 3D. The architecture](https://www.dipy.org/documentation/1.1.1./examples_built/affine_registration_3d/#example-affine-registration-3d), the loss functions, and the hyperparameters are the same as those described in the paper. 
+This week I performed the necessary preprocessing: removed the skulls in the volumes using the brain segmentation that was provided, and affine registered the volumes to the static image, using the DIPY tutorial: [Affine Registration in 3D. The architecture](https://www.dipy.org/documentation/1.1.1./examples_built/affine_registration_3d/#example-affine-registration-3d), the loss functions, and the hyperparameters are the same as those described in the paper.  
+
 Link to Colab notebook - https://colab.research.google.com/drive/1-lPuD4vRCeihKYMQKDDXLYq1dxm-3tJR?usp=sharing
 
 #### Results
