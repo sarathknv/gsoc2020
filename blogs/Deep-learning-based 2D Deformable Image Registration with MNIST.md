@@ -39,9 +39,12 @@ The MNIST dataset was filtered to keep just one class of images and the static i
 
 
 ## Sample outputs
- | ![0](_images/1_0.png) | ![1](_images/1_1.png) | ![2](_images/1_2.png) |  
- |:------------------------------------------:|:-----------------------:|:-----------:|  
- |             ![3](_images/1_3.png)                    |      ![4](_images/1_4.png)    |: ![5](_images/1_5.png) :|  
+
+ ![0](_images/1_0.png) | ![1](_images/1_1.png) | ![2](_images/1_2.png)
+--- | --- | ---
+![3](_images/1_3.png) | ![4](_images/1_4.png) | ![5](_images/1_5.png)
+
+
 
 ## Highlights up till week 1
 - Developed a POC for non-rigid image registration using the MNIST dataset. [Colab notebook](https://colab.research.google.com/drive/1fTzz1aT2sb8oAXRO1-dr6O_IR6dof36e?usp=sharing)
