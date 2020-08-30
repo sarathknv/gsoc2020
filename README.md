@@ -1,5 +1,8 @@
 # GSoC 2020 Final Code Submission
 
+Project link — [MRI Registration using Deep Learning and Implementation of Thin-Plate Splines](https://summerofcode.withgoogle.com/projects/#6582514342166528)  
+Organization — [INCF](https://www.incf.org/) and [DIPY](https://www.dipy.org/)
+
 ## Weekly Progress  
 
 - Community Bonding + Week 1
@@ -57,8 +60,6 @@ of Intensity Nonuniformity in MRI Data](https://www.nitrc.org/docman/view.php/6/
 - [Deep-learning-based 3D Deformable Registration of T2-weighted images](https://github.com/sarathknv/gsoc2020/blob/master/blogs/Deep-learning-based%203D%20Deformable%20Registration%20of%20T2-weighted%20Images.md)
 - [Deep-learning-based 3D Cross-modality Registration](https://github.com/sarathknv/gsoc2020/blob/master/blogs/Deep-learning-based%203D%20Cross-modality%20Registration.md)
 - [Thin-plate Splines](https://github.com/sarathknv/gsoc2020/blob/master/blogs/Thin-Plate%20Splines.md)
-
-## Colab Notebooks
 
 
 ## Codes
