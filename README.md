@@ -69,3 +69,13 @@ of Intensity Nonuniformity in MRI Data](https://www.nitrc.org/docman/view.php/6/
 - N3 Bias Field Correction - https://colab.research.google.com/drive/1eHAkHgMPDK4tlxihgMfK73FnaiQpdAR4?usp=sharing
 
 ## Colab Notebooks
+- [2D Deformable Registration of MNIST Images](https://colab.research.google.com/drive/1r7-uPSq9zPugOl-K89j6L5jTFR4hSumY?usp=sharing)
+- [3D Deformable Registration of T1 Images](https://colab.research.google.com/drive/1-lPuD4vRCeihKYMQKDDXLYq1dxm-3tJR?usp=sharing)
+- [3D Deformable Registration of T2 Images](https://colab.research.google.com/drive/18fgNS8ifnzWmehyY85VtR0iskYnJHqQ3?usp=sharing)
+- [3D Deformable Cross-Modality Registration](https://colab.research.google.com/drive/1f5a64-rWMTsC3irVjyTQ3le6JPH1c6F0?usp=sharing)
+- [2D Affine Registration of MNIST Images](https://colab.research.google.com/drive/1aTca_cn8O_y5-PmSkXS_XKgaJAMZuBMr?usp=sharing)
+- [3D Affine Registration of T1 Images](https://colab.research.google.com/drive/1x8Lk5V7p6N5eAaX3lJ6vVKjal3YwaEOo?usp=sharing)
+- [Registration API Usage](https://colab.research.google.com/drive/1YnGZX43_UzrtWnqI8ZkzLjvprc2kDGk9?usp=sharing)
+- [VoxelMorph (CVPR 2018)](https://colab.research.google.com/drive/1-lPuD4vRCeihKYMQKDDXLYq1dxm-3tJR?usp=sharing)
+- [N3 Bias Field Correction](https://colab.research.google.com/drive/1eHAkHgMPDK4tlxihgMfK73FnaiQpdAR4?usp=sharing)
+
